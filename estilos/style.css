@@ -1,0 +1,182 @@
+/*reseteo*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*encabezado*/
+header { 
+    background-color: rgb(4, 8, 51);
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(42, 67, 117);
+    font-size: 40px;
+    font-weight:bold;
+    text-align: left;
+}
+
+h1{
+    align-self: center;
+}
+
+#arriba{
+margin-top:20px;
+margin-left:20px;
+}
+
+nav{
+    width:80%;
+    padding: 15px;
+    border: 5px;
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+
+ul{
+    background-color:cornflowerblue;
+    list-style:none;
+    width: 53%;
+    }
+
+
+li{
+    display: inline;
+    font-size:25px;
+    content:center;
+    margin:15px; 
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.principal{
+    width:100%;
+}
+
+/*imagen de la portada*/
+.veleroPortada{
+    display:block;
+    width: 100%;
+    margin:0 auto;
+    background-color: lightblue;
+}
+
+#arriba{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/*noticias*/
+.noticiasEventos{
+    padding: 20px;
+    border: 5px;
+    margin: 5px;
+    background-color:rgb(4, 8, 51);
+    font-family: "Roboto", serif; 
+    font-size: 40px;
+    text-align: center;
+}
+
+#noticias{
+    color:whitesmoke;
+}
+
+.noticias{
+    color: whitesmoke;
+}
+
+.imgnoticias{
+    width:100%;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+h2{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/*titulos de secciones*/
+#titulos{
+font-size: 65px;
+text-align: center;
+}
+
+/*historia*/
+.parrafo{
+    font-family:"Roboto", serif;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.imgHistoria{
+    margin: 100px;
+    border:black 10px;
+}
+
+/*tienda*/
+#imgTienda{
+    width: 100%;
+}
+
+#menuTienda{
+    display:inline-block;
+    margin:25px;
+    margin-left:125px;
+    border:0;
+    width: 100%;
+}
+
+/*modelos*/
+
+#titulos{
+background-color: cornflowerblue;
+}
+
+.modelos{
+    width: 100%;
+    border:none;
+    background-color: cornflowerblue;
+}
+
+.fotomodelo{
+    display:inline-block;
+    margin-left:190px;
+    border:none;
+}
+
+/*contacto*/
+main{
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+form{
+    margin: 25px;
+}
+
+/*pie de pagina*/
+footer{
+    background-color: darkcyan;
+}
+
+#copyright{
+    font-size: 15px;
+}
+.pieDePagina{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 300px;
+    margin-bottom: 25px;
+    border: 25px;
+    background-color: cornflowerblue;
+    border-color: rgb(136, 139, 172);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.redes{
+    display:inline-block;
+    margin-left: 40px;
+    margin-right: 10px;
+}
